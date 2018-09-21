@@ -1,8 +1,8 @@
 package main
 
 import (
-	"TurtleCoin-Nest/turtlecoinwalletdrpcgo"
-	"TurtleCoin-Nest/walletdmanager"
+	"roto2coin-gui-wallet/turtlecoinwalletdrpcgo"
+	"roto2coin-gui-wallet/walletdmanager"
 	"database/sql"
 	"encoding/json"
 	"io"
@@ -160,7 +160,7 @@ func main() {
 			log.Fatal(err)
 		}
 		pathToHomeDir = usr.HomeDir
-		pathToAppFolder := pathToHomeDir + "/Library/Application Support/TurtleCoin-Nest"
+		pathToAppFolder := pathToHomeDir + "/Library/Application Support/roto2coin-gui-wallet"
 		os.Mkdir(pathToAppFolder, os.ModePerm)
 		pathToLogFile = pathToAppFolder + "/" + logFileFilename
 		pathToDB = pathToAppFolder + "/" + pathToDB
