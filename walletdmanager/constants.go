@@ -2,7 +2,7 @@ package walletdmanager
 
 const (
 	// DefaultTransferFee is the default fee. It is expressed in TRTL
-	DefaultTransferFee float64 = 0.1
+	DefaultTransferFee float64 = 1
 	// DefaultTransferMixin is the default mixin
 	DefaultTransferMixin = 7
 
