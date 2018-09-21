@@ -19,7 +19,7 @@ ApplicationWindow {
     minimumWidth: windowWidth
     minimumHeight: minWindowHeight
     color: "#333333"
-    title: "TurtleCoin Nest"
+    title: "Roto2coin GUI wallet"
     visible: true
 
     Flickable{
