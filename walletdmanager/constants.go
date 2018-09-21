@@ -6,11 +6,11 @@ const (
 	// DefaultTransferMixin is the default mixin
 	DefaultTransferMixin = 7
 
-	logWalletdCurrentSessionFilename     = "turtle-service-session.log"
-	logWalletdAllSessionsFilename        = "turtle-service.log"
-	logTurtleCoindCurrentSessionFilename = "TurtleCoind-session.log"
-	logTurtleCoindAllSessionsFilename    = "TurtleCoind.log"
+	logWalletdCurrentSessionFilename     = "roto2-service-session.log"
+	logWalletdAllSessionsFilename        = "roto2-service.log"
+	logTurtleCoindCurrentSessionFilename = "Roto2Coind-session.log"
+	logTurtleCoindAllSessionsFilename    = "Roto2Coind.log"
 	walletdLogLevel                      = "3" // should be at least 3 as I use some logs messages to confirm creation of wallet
-	walletdCommandName                   = "turtle-service"
-	turtlecoindCommandName               = "TurtleCoind"
+	walletdCommandName                   = "roto2-service"
+	turtlecoindCommandName               = "Roto2Coind"
 )
